@@ -3,7 +3,6 @@ import { IoCall, IoLocation } from "react-icons/io5";
 import { BsInstagram, BsGithub } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
-import Map from "./Map";
 
 const Contact = () => {
   return (
