@@ -14,12 +14,12 @@ const Gallery = () => {
               <>
                 <div
                   key={ind}
-                  className="w-full h-full mx-auto p-2 m-2 col-span-1 "
+                  className="w-full h-full mx-auto p-2 m-2 col-span-4 sm:col-span-2 md:col-span-1 flex justify-center items-center"
                 >
                   <img
                     src={val.imgSrc}
                     alt=""
-                    className="w-[300px] h-[270px]"
+                    className="w-[300px] h-[250px]"
                   />
                 </div>
               </>
