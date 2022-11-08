@@ -6,13 +6,12 @@ import { SiGmail } from "react-icons/si";
 
 const Contact = () => {
   return (
-    <section className="w-full h-full max-w-[1200px] mx-auto my-10">
+    <section className="w-full h-full max-w-[1200px] mx-auto my-20">
       <h2 className="text-5xl text-sky-600 font-bold text-center p-5 my-5">
         Contact Us
       </h2>
       <div className="grid grid-cols-2">
         <div className="w-[90%] md:w-[100%]  col-span-2 sm:col-span-1 md:col-span-1  p-5 flex justify-center items-center  mx-auto">
-          {/* <Map /> */}
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.9214425376267!2d77.99256466494904!3d30.267819431801573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39092b9451ae8dfd%3A0xf39c46d34a152faa!2sGraphic%20Era%20(Deemed%20to%20be%20University)!5e0!3m2!1sen!2sin!4v1667836037944!5m2!1sen!2sin"
             title="map"
