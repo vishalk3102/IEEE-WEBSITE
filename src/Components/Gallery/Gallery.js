@@ -4,8 +4,11 @@ import GalleryData from "../Data/GalleryData";
 const Gallery = () => {
   return (
     <>
-      <section className="w-full h-full max-w-[1200px] mx-auto my-10">
-        <h2 className="text-5xl text-sky-600 font-bold text-center p-5 my-5">
+      <section
+        id="gallery"
+        className="w-full h-full max-w-[1200px] mx-auto my-10"
+      >
+        <h2 className="text-5xl text-sky-600 font-bold text-center p-5 my-5 uppercase">
           Gallery
         </h2>
         <div className="w-[full] h-full grid grid-cols-4">
