@@ -6,8 +6,11 @@ import { SiGmail } from "react-icons/si";
 
 const Contact = () => {
   return (
-    <section className="w-full h-full max-w-[1200px] mx-auto my-20">
-      <h2 className="text-5xl text-sky-600 font-bold text-center p-5 my-5">
+    <section
+      id="contact"
+      className="w-full h-full max-w-[1200px] mx-auto my-20"
+    >
+      <h2 className="text-5xl text-sky-600 font-bold text-center p-5 my-5 uppercase">
         Contact Us
       </h2>
       <div className="grid grid-cols-2">
