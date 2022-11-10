@@ -3,7 +3,6 @@ import Hero from "./Components/Home/Hero";
 import Navbar from "./Components/Navbar/Navbar";
 import Topnavbar from "./Components/Navbar/Topnavbar";
 import Footers from "./Components/Footer/Footers";
-import AboutUs from "./Components/Aboutus/AboutUs";
 import Gallery from "./Components/Gallery/Gallery";
 import Contact from "./Components/Contact/Contact";
 import Membership from "./Components/Membership/Membership";
@@ -15,7 +14,6 @@ const App = () => {
       <Topnavbar />
       <Navbar />
       <Hero />
-      {/* <AboutUs /> */}
       <About />
       <Team />
       <Gallery />

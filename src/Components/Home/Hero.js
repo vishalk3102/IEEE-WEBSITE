@@ -1,7 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import Slider from "./Slider";
 import SliderData from "../Data/SliderData";
 import { Navigation, Pagination, Autoplay } from "swiper";
 import "swiper/css/navigation";
