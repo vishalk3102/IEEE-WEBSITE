@@ -3,7 +3,10 @@ import sliderimg2 from "../../Assets/sliderimg2.jpg";
 
 const About = () => {
   return (
-    <section className="w-[100%] h-full max-w-[1200px] mx-auto mt-2 mb-5">
+    <section
+      id="about"
+      className="w-[100%] h-full max-w-[1200px] mx-auto mt-2 mb-5"
+    >
       <div className="grid grid-cols-2 text-left sm:text-center md:text-left">
         <div className="col-span-2 md:col-span-1">
           <h1 className="text-[2.8rem] md:text-[3.5rem] font-bold text-center md:text-left pl-4">
