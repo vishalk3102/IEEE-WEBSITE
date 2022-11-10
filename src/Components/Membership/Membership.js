@@ -5,15 +5,20 @@ import MembershipData from "../Data/MembershipData";
 const Membership = () => {
   return (
     <section className="max-w-[1200px] w-[100%] h-full mx-auto my-10">
-      <h2 className="text-5xl text-sky-600 font-bold text-center p-5 my-5">
+      <h2 className="text-5xl text-sky-600 font-bold text-center p-4">
         Membership
       </h2>
-      <div className="w-[80%] grid grid-cols-2 gap-5 mx-auto">
+      <p className="text-[#000] font-medium text-center mx-auto p-2 mb-2">
+        {" "}
+        Come, be a part of the legacy and make technology better!
+      </p>
+
+      <div className="w-[70%] grid grid-cols-2 gap-5 mx-auto mt-5">
         {MembershipData.map((val, ind) => {
           return (
             <>
               <div className="col-span-2 md:col-span-1 p-5">
-                <div className="w-[90%] md:w-[80%] h-[100%]  mx-auto border-solid border-[1px] border-black rounded-[12px]">
+                <div className="w-[100%] md:w-[90%] h-[100%]  mx-auto border-solid border-[1px] border-black rounded-[12px]">
                   <h3 className="text-[1.4rem] font-medium text-center p-4 uppercase mt-5">
                     {val.title}
                   </h3>

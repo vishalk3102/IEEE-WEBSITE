@@ -26,7 +26,7 @@ const Gallery = () => {
             );
           })}
         </div>
-        <div className="flex justify-end items-center my-5">
+        <div className="flex justify-center md:justify-end items-center my-5">
           <div className="w-[150px] h-[50px] text-[#fff] text-[1rem] font-medium capitalize flex justify-center  items-center bg-sky-600   rounded mr-2 ">
             <a href="./MainGallery.js">See More</a>
           </div>

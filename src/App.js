@@ -3,26 +3,29 @@ import Hero from "./Components/Home/Hero";
 import Navbar from "./Components/Navbar/Navbar";
 import Topnavbar from "./Components/Navbar/Topnavbar";
 import Join from "./Components/Membership/Join";
-import Footer from "./Components/Footer/Footer";
+import Footers from "./Components/Footer/Footers";
 import Aboutus from "./Components/Aboutus/Aboutus";
 import Home from "./Components/Home/Home";
 import Gallery from "./Components/Gallery/Gallery";
 import Contact from "./Components/Contact/Contact";
+import Membership from "./Components/Membership/Membership";
+import Team from "./Components/Aboutus/Team";
 const App = () => {
   return (
     <>
       <Topnavbar />
       <Navbar />
       <Hero />
-      <Aboutus />
+      <Home />
+      <Team />
+      {/* <Aboutus /> */}
       {/* <Slider /> */}
       {/* <Home /> */}
       <Gallery />
-      <Home />
-      <Aboutus />
-      <Join />
+      {/* <Join /> */}
+      <Membership />
       <Contact />
-      <Footer />
+      <Footers />
     </>
   );
 };
