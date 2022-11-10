@@ -4,8 +4,11 @@ import MembershipData from "../Data/MembershipData";
 
 const Membership = () => {
   return (
-    <section className="max-w-[1200px] w-[100%] h-full mx-auto my-10">
-      <h2 className="text-5xl text-sky-600 font-bold text-center p-4">
+    <section
+      id="membership"
+      className="max-w-[1200px] w-[100%] h-full mx-auto my-10"
+    >
+      <h2 className="text-5xl text-sky-600 font-bold text-center p-4 uppercase">
         Membership
       </h2>
       <p className="text-[#000] font-medium text-center mx-auto p-2 mb-2">
