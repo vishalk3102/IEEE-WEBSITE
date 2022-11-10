@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { Link } from "react-scroll";
 import logo from "../../Assets/logo3.png";
 
 const Navbar = () => {
@@ -20,6 +21,9 @@ const Navbar = () => {
   const handleMenuClick = () => {
     setNav(!nav);
   };
+  const handleNavItemClick = () => {
+    setNav(false);
+  };
 
   return (
     <>
@@ -29,11 +33,71 @@ const Navbar = () => {
       >
         <div className="hidden md:flex">
           <ul className=" font-medium capitalize  flex justify-center items-center hover:cursor-pointer">
-            <li className="text-[1rem] p-2 m-2">Home</li>
-            <li className="text-[1rem] p-2 m-2">About us</li>
-            <li className="text-[1rem] p-2 m-2">Events</li>
-            <li className="text-[1rem] p-2 m-2">Gallery</li>
-            <li className="text-[1rem] p-2 m-2">Membership</li>
+            <li className="text-[1rem] p-2 m-2 hover:cursor-pointer  hover:text-sky-700">
+              <Link
+                activeClass="active"
+                to="hero"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={2000}
+                delay={500}
+              >
+                Home
+              </Link>
+            </li>
+            <li className="text-[1rem] p-2 m-2">
+              <Link
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={2000}
+                delay={500}
+              >
+                About us
+              </Link>
+            </li>
+            <li className="text-[1rem] p-2 m-2">
+              <Link
+                activeClass="active"
+                to="event"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={2000}
+                delay={500}
+              >
+                Events
+              </Link>
+            </li>
+            <li className="text-[1rem] p-2 m-2">
+              <Link
+                activeClass="active"
+                to="gallery"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={2000}
+                delay={500}
+              >
+                Gallery
+              </Link>
+            </li>
+            <li className="text-[1rem] p-2 m-2">
+              <Link
+                activeClass="active"
+                to="membership"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={2000}
+                delay={500}
+              >
+                Membership
+              </Link>
+            </li>
           </ul>
         </div>
 
@@ -62,11 +126,76 @@ const Navbar = () => {
             <AiOutlineClose size={24} />
           </div> */}
           <ul className="font-medium capitalize   hover:cursor-pointer">
-            <li className="text-[1rem] p-4 m-2">Home</li>
-            <li className="text-[1rem] p-4 m-2">About us</li>
-            <li className="text-[1rem] p-4 m-2">Events</li>
-            <li className="text-[1rem] p-4 m-2">Gallery</li>
-            <li className="text-[1rem] p-4 m-2">Membership</li>
+            <li className="text-[1rem] p-2 m-2">
+              <Link
+                activeClass="active"
+                to="hero"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={2000}
+                delay={500}
+                onClick={handleNavItemClick}
+              >
+                Home
+              </Link>
+            </li>
+            <li className="text-[1rem] p-2 m-2">
+              <Link
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={2000}
+                delay={500}
+                onClick={handleNavItemClick}
+              >
+                About us
+              </Link>
+            </li>
+            <li className="text-[1rem] p-2 m-2">
+              <Link
+                activeClass="active"
+                to="event"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={2000}
+                delay={500}
+                onClick={handleNavItemClick}
+              >
+                Events
+              </Link>
+            </li>
+            <li className="text-[1rem] p-2 m-2">
+              <Link
+                activeClass="active"
+                to="gallery"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={2000}
+                delay={500}
+                onClick={handleNavItemClick}
+              >
+                Gallery
+              </Link>
+            </li>
+            <li className="text-[1rem] p-2 m-2">
+              <Link
+                activeClass="active"
+                to="membership"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={2000}
+                delay={500}
+                onClick={handleNavItemClick}
+              >
+                Membership
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
