@@ -15,22 +15,52 @@ const Topnavbar = () => {
           <div className=" grid grid-cols-5 md:grid-cols-3 ">
             <div className=" col-span-1 flex justify-center items-center mx-2">
               <span className="p-2 m-1">
-                <SiGmail size={20} />
+                <a
+                  href="mailto:ieeegeu.studentbranch@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <SiGmail size={20} />
+                </a>
               </span>
               <p className="text-[0.8rem] font-medium p-2 m-1 hidden md:block">
-                ieeegeu.studentbranch@gmail.com
+                <a
+                  href="mailto:ieeegeu.studentbranch@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  ieeegeu.studentbranch@gmail.com
+                </a>
               </p>
             </div>
             <div className="col-span-3 md:col-span-1">
               <ul className="flex justify-center items-center">
                 <li className="p-2 m-1">
-                  <BsInstagram size={20} />
+                  <a
+                    href="https://www.instagram.com/ieee.geu/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <BsInstagram size={20} />
+                  </a>
                 </li>
                 <li className="p-2 m-2">
-                  <FaLinkedinIn size={20} />
+                  <a
+                    href="https://www.linkedin.com/in/ieee-geu/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FaLinkedinIn size={20} />
+                  </a>
                 </li>
                 <li className="p-2 m-2">
-                  <BsGithub size={20} />
+                  <a
+                    href="https://github.com/ieeegeu"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <BsGithub size={20} />
+                  </a>
                 </li>
               </ul>
             </div>

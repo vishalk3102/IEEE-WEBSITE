@@ -38,7 +38,13 @@ const Footers = () => {
             <ul className="flex flex-col justify-start items-start text-[#000] text-[1rem] font-normal p-1 mx-5 ">
               <li className="flex  justify-center items-center p-2">
                 <span className="p-1">
-                  <SiGmail size={20} />
+                  <a
+                    href="mailto:ieeegeu.studentbranch@gmail.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <SiGmail size={20} />
+                  </a>
                 </span>
                 <p className="pl-3">ieeegeu.studentbranch@gmail.com</p>
               </li>
@@ -56,13 +62,31 @@ const Footers = () => {
             </h4>
             <ul className="flex justify-center items-center p-2 m-2">
               <li className=" p-2 m-1">
-                <BsInstagram size={24} />
+                <a
+                  href="https://www.instagram.com/ieee.geu/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <BsInstagram size={20} />
+                </a>
               </li>
               <li className=" p-2 m-1">
-                <FaLinkedinIn size={24} />
+                <a
+                  href="https://www.linkedin.com/in/ieee-geu/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaLinkedinIn size={20} />
+                </a>
               </li>
               <li className=" p-2 m-1">
-                <BsGithub size={24} />
+                <a
+                  href="https://github.com/ieeegeu"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <BsGithub size={20} />
+                </a>
               </li>
             </ul>
           </div>

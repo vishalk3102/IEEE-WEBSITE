@@ -43,22 +43,51 @@ const Contact = () => {
           </div>
           <div className="flex justify-start items-center  p-4 m-2">
             <span>
-              <SiGmail size={24} />
+              <a
+                href="mailto:ieeegeu.studentbranch@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <SiGmail size={24} />
+              </a>
             </span>
             <p className=" font-medium pl-2 ml-3">
-              ieeegeu.studentbranch@gmail.com
+              <a
+                href="mailto:ieeegeu.studentbranch@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                ieeegeu.studentbranch@gmail.com
+              </a>
             </p>
           </div>
           <div className="flex justify-start items-center m-2">
             <div className="p-4 m-2">
-              <BsInstagram size={24} />
+              <a
+                href="https://www.instagram.com/ieee.geu/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BsInstagram size={24} />
+              </a>
             </div>
             <div className="p-4 m-2">
-              {" "}
-              <FaLinkedinIn size={24} />
+              <a
+                href="https://www.linkedin.com/in/ieee-geu/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaLinkedinIn size={24} />
+              </a>
             </div>
             <div className="p-4 m-2">
-              <BsGithub size={24} />
+              <a
+                href="https://github.com/ieeegeu"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BsGithub size={24} />
+              </a>
             </div>
           </div>
         </div>
