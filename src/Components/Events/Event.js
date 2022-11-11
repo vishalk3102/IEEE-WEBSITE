@@ -16,13 +16,13 @@ const Event = () => {
           for others to grow and for us to gain the opportunity to grow along as
           well. Few of the events we organise are:
         </p>
-        <div className="grid grid-cols-3 sm:grid-cols-2 md:grid-cols-3 gap-y-10 my-10">
+        <div className="grid grid-cols-3 sm:grid-cols-2 md:grid-cols-3 gap-y-10 my-10 ">
           {EventData.map((items) => {
             return (
               <>
                 <div
                   key={items.id}
-                  className=" col-span-3 sm:col-span-2  md:col-span-1 "
+                  className=" col-span-3 sm:col-span-2  md:col-span-1 hover:cursor-pointer hover:scale-105 "
                 >
                   <EventCard items={items} />
                 </div>

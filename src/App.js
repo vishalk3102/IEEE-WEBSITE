@@ -8,6 +8,7 @@ import Contact from "./Components/Contact/Contact";
 import Membership from "./Components/Membership/Membership";
 import Team from "./Components/Aboutus/Team";
 import About from "./Components/Aboutus/About";
+import Event from "./Components/Events/Event";
 const App = () => {
   return (
     <>
@@ -15,6 +16,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
+      <Event />
       <Team />
       <Gallery />
       <Membership />
