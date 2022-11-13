@@ -33,67 +33,67 @@ const Navbar = () => {
       >
         <div className="hidden md:flex">
           <ul className=" font-medium capitalize  flex justify-center items-center hover:cursor-pointer">
-            <li className="text-[1rem] p-2 m-2 hover:cursor-pointer  hover:text-sky-700">
+            <li className="text-[1rem] p-2 m-2 hover:cursor-pointer  hover:text-sky-900">
               <Link
                 activeClass="active"
                 to="hero"
                 spy={true}
                 smooth={true}
                 offset={0}
-                duration={2000}
-                delay={500}
+                duration={1000}
+                delay={100}
               >
                 Home
               </Link>
             </li>
-            <li className="text-[1rem] p-2 m-2">
+            <li className="text-[1rem] p-2 m-2 hover:cursor-pointer  hover:text-sky-900">
               <Link
                 activeClass="active"
                 to="about"
                 spy={true}
                 smooth={true}
                 offset={0}
-                duration={2000}
-                delay={500}
+                duration={1000}
+                delay={100}
               >
                 About us
               </Link>
             </li>
-            <li className="text-[1rem] p-2 m-2">
+            <li className="text-[1rem] p-2 m-2 hover:cursor-pointer  hover:text-sky-900">
               <Link
                 activeClass="active"
                 to="event"
                 spy={true}
                 smooth={true}
                 offset={0}
-                duration={2000}
-                delay={500}
+                duration={1000}
+                delay={100}
               >
                 Events
               </Link>
             </li>
-            <li className="text-[1rem] p-2 m-2">
+            <li className="text-[1rem] p-2 m-2 hover:cursor-pointer  hover:text-sky-900">
               <Link
                 activeClass="active"
                 to="gallery"
                 spy={true}
                 smooth={true}
                 offset={0}
-                duration={2000}
-                delay={500}
+                duration={1000}
+                delay={100}
               >
                 Gallery
               </Link>
             </li>
-            <li className="text-[1rem] p-2 m-2">
+            <li className="text-[1rem] p-2 m-2 hover:cursor-pointer  hover:text-sky-900">
               <Link
                 activeClass="active"
                 to="membership"
                 spy={true}
                 smooth={true}
                 offset={0}
-                duration={2000}
-                delay={500}
+                duration={1000}
+                delay={100}
               >
                 Membership
               </Link>
@@ -126,71 +126,71 @@ const Navbar = () => {
             <AiOutlineClose size={24} />
           </div> */}
           <ul className="font-medium capitalize   hover:cursor-pointer">
-            <li className="text-[1rem] p-2 m-2">
+            <li className="text-[1rem] p-2 m-2 hover:cursor-pointer  hover:text-sky-900">
               <Link
                 activeClass="active"
                 to="hero"
                 spy={true}
                 smooth={true}
                 offset={0}
-                duration={2000}
-                delay={500}
+                duration={1000}
+                delay={100}
                 onClick={handleNavItemClick}
               >
                 Home
               </Link>
             </li>
-            <li className="text-[1rem] p-2 m-2">
+            <li className="text-[1rem] p-2 m-2 hover:cursor-pointer  hover:text-sky-900">
               <Link
                 activeClass="active"
                 to="about"
                 spy={true}
                 smooth={true}
                 offset={0}
-                duration={2000}
-                delay={500}
+                duration={1000}
+                delay={100}
                 onClick={handleNavItemClick}
               >
                 About us
               </Link>
             </li>
-            <li className="text-[1rem] p-2 m-2">
+            <li className="text-[1rem] p-2 m-2 hover:cursor-pointer  hover:text-sky-900">
               <Link
                 activeClass="active"
                 to="event"
                 spy={true}
                 smooth={true}
                 offset={0}
-                duration={2000}
-                delay={500}
+                duration={1000}
+                delay={100}
                 onClick={handleNavItemClick}
               >
                 Events
               </Link>
             </li>
-            <li className="text-[1rem] p-2 m-2">
+            <li className="text-[1rem] p-2 m-2 hover:cursor-pointer  hover:text-sky-900">
               <Link
                 activeClass="active"
                 to="gallery"
                 spy={true}
                 smooth={true}
                 offset={0}
-                duration={2000}
-                delay={500}
+                duration={1000}
+                delay={100}
                 onClick={handleNavItemClick}
               >
                 Gallery
               </Link>
             </li>
-            <li className="text-[1rem] p-2 m-2">
+            <li className="text-[1rem] p-2 m-2 hover:cursor-pointer  hover:text-sky-900">
               <Link
                 activeClass="active"
                 to="membership"
                 spy={true}
                 smooth={true}
                 offset={0}
-                duration={2000}
-                delay={500}
+                duration={1000}
+                delay={100}
                 onClick={handleNavItemClick}
               >
                 Membership

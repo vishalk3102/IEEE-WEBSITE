@@ -20,7 +20,7 @@ const Topnavbar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <SiGmail size={20} />
+                  <SiGmail size={20} color="#D44638" />
                 </a>
               </span>
               <p className="text-[0.8rem] font-medium p-2 m-1 hidden md:block">
@@ -41,7 +41,7 @@ const Topnavbar = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <BsInstagram size={20} />
+                    <BsInstagram size={20} color="#C13584" />
                   </a>
                 </li>
                 <li className="p-2 m-2">
@@ -50,7 +50,7 @@ const Topnavbar = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <FaLinkedinIn size={20} />
+                    <FaLinkedinIn size={20} color="#0A66C2" />
                   </a>
                 </li>
                 <li className="p-2 m-2">
@@ -59,17 +59,17 @@ const Topnavbar = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <BsGithub size={20} />
+                    <BsGithub size={20} color="#000" />
                   </a>
                 </li>
               </ul>
             </div>
             <div className="col-span-1  flex justify-center items-center mx-2">
               <span className="p-2 m-1">
-                <IoCall size={20} />
+                <IoCall size={20} color="#28D146" />
               </span>
               <p className="text-[0.8rem] font-medium p-2 m-1 hidden md:block">
-                +91 8456483999
+                +91 9027522251
               </p>
             </div>
           </div>
