@@ -17,7 +17,7 @@ const Team = () => {
         </p>
         <div className="flex flex-col justify-center items-center mt-5">
           <h4 className="text-[1.4rem] text-center p-4 mt-2 uppercase font-semibold">
-            Coordinator
+            Counsellor
           </h4>
           <div className="mx-auto m-4 p-2">
             <Card name="Piyush Aggarwal" pos="assistant professor" pic={fa1} />

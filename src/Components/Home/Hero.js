@@ -28,8 +28,15 @@ const Hero = () => {
             return (
               <>
                 <SwiperSlide>
-                  <div className="w-[100%] h-screen opacity-70 ">
-                    <img src={val.imgSrc} alt="" className="w-[100%] h-[80%]" />
+                  <div className="w-[100%] h-[400px] md:h-[600px] opacity-70 ">
+                    <img
+                      src={val.imgSrc}
+                      alt=""
+                      className="w-[100%] h-[90%] md:h-[100%]"
+                    />
+                    <div className="w-[100%] h-[60%] md:h-[80%]  bg-gray-900 opacity-20 text-[#fff] text-7xl absolute top-0">
+                      {" "}
+                    </div>
                   </div>
                 </SwiperSlide>
               </>
