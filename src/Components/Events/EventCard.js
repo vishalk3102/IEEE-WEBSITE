@@ -13,6 +13,13 @@ const EventCard = ({ items }) => {
         <p className="text-[#000] font-normal text-[1rem] p-2 mb-4">
           {items.desc}
         </p>
+        <div className="flex justify-center  items-center my-5">
+          <div className="w-[150px] h-[40px] text-[#fff] text-[0.8rem] font-medium capitalize flex justify-center  items-center bg-sky-600   rounded mr-2 ">
+            <a href={items.link} target="_blank" rel="noreferrer">
+              See More
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );

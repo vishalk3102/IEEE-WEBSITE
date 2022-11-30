@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import GalleryData from "../Data/GalleryData";
 
 const Gallery = () => {
@@ -16,7 +17,7 @@ const Gallery = () => {
             return (
               <>
                 <div
-                  key={ind}
+                  key={val.id}
                   className="w-full h-full mx-auto p-2 m-2 col-span-4 sm:col-span-2 md:col-span-1 flex justify-center items-center"
                 >
                   <img
@@ -31,7 +32,7 @@ const Gallery = () => {
         </div>
         <div className="flex justify-center md:justify-end items-center my-5">
           <div className="w-[150px] h-[50px] text-[#fff] text-[1rem] font-medium capitalize flex justify-center  items-center bg-sky-600   rounded mr-2 ">
-            <a href="./MainGallery.js">See More</a>
+            <NavLink to="/gallery">See More</NavLink>
           </div>
         </div>
       </section>

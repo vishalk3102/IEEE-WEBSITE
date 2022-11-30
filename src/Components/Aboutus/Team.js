@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "../Aboutus/ProfileCard";
+import FacultyCard from "../Aboutus/FacultyCard";
 import fa1 from "../../Assets/fa1.jpg";
 
 const Team = () => {
@@ -15,59 +16,92 @@ const Team = () => {
           set of smart and dedicated persons who makes great things possible in
           an open and collaborative environment.
         </p>
-        <div className="flex flex-col justify-center items-center mt-5">
-          <h4 className="text-[1.4rem] text-center p-4 mt-2 uppercase font-semibold">
-            Counsellor
-          </h4>
-          <div className="mx-auto m-4 p-2">
-            <Card name="Piyush Aggarwal" pos="assistant professor" pic={fa1} />
+        <div className="w-[80%] grid grid-cols-2 md:grid-cols-4 mx-auto my-10">
+          <div className=" col-span-2 flex flex-col justify-center items-center  md:items-end my-5">
+            <h4 className="w-[260px] text-[1.4rem] text-center p-4 mx-4 mt-2 uppercase font-semibold">
+              advisor
+            </h4>
+            <div className=" m-4 p-2 ">
+              <FacultyCard name="Sachin sharma" pos="Professor" pic={fa1} />
+            </div>
+          </div>
+          <div className=" col-span-2  md:col-span-2  flex flex-col justify-center items-center  md:items-start  my-5">
+            <h4 className="w-[260px] text-[1.4rem] text-center p-4 mx-4 mt-2 uppercase font-semibold">
+              Counsellor
+            </h4>
+            <div className="m-4 p-2">
+              <FacultyCard
+                name="Piyush Agarwal"
+                pos="assistant professor"
+                pic={fa1}
+              />
+            </div>
           </div>
         </div>
+
         <div className="mt-5">
           <h4 className="text-[1.4rem] text-center p-4 mt-4 mb-2 uppercase font-semibold">
             Core Members
           </h4>
-          <div class="w-[70%] grid grid-cols-4 md:grid-cols-3 gap-5 mx-auto">
-            <div className="mx-auto p-2 col-span-4 sm:col-span-2 md:col-span-1 ">
+          <div class="w-[80%] grid grid-cols-4 lg:grid-cols-3 gap-2 mx-auto">
+            <div className="p-2 col-span-4 sm:col-span-2 lg:col-span-1 flex  justify-center md:justify-end lg:justify-end items-center">
               <Card
-                name="Piyush Aggarwal"
-                pos="assistant professor"
+                name="Tanzeel Khan"
+                pos="Chair"
                 pic={fa1}
+                github="https://github.com/tanzeyl"
+                instagram="https://instagram.com/tanzzeyl?igshid=YmMyMTA2M2Y="
+                linkedin="https://www.linkedin.com/in/tanzeyl"
               />
             </div>
-            <div className="mx-auto p-2 col-span-4 sm:col-span-2 md:col-span-1 ">
+            <div className="p-2 col-span-4 sm:col-span-2 lg:col-span-1  flex justify-center md:justify-start lg:justify-center items-center">
               <Card
-                name="Piyush Aggarwal"
-                pos="assistant professor"
+                name="Sahil Gupta"
+                pos="Secretary"
                 pic={fa1}
+                github="https://github.com/tanzeyl"
+                instagram="https://instagram.com/tanzzeyl?igshid=YmMyMTA2M2Y="
+                linkedin="https://www.linkedin.com/in/tanzeyl"
               />
             </div>
-            <div className="mx-auto p-2 col-span-4 sm:col-span-2 md:col-span-1 ">
+            <div className="p-2 col-span-4 sm:col-span-2 lg:col-span-1  flex justify-center md:justify-end lg:justify-start items-center">
               <Card
-                name="Piyush Aggarwal"
-                pos="assistant professor"
+                name="Geetansh Verma"
+                pos="Secretary"
                 pic={fa1}
+                github="https://github.com/GeeTansher"
+                instagram="https://instagram.com/geetansher?igshid=YmMyMTA2M2Y="
+                linkedin="https://www.linkedin.com/in/geetansh-verma-2b15901bb"
               />
             </div>
-            <div className="mx-auto p-2 col-span-4 sm:col-span-2 md:col-span-1 ">
+            <div className="p-2 lg:mt-4 col-span-4 sm:col-span-2 lg:col-span-1  flex  justify-center md:justify-start lg:justify-end items-center">
               <Card
-                name="Piyush Aggarwal"
-                pos="assistant professor"
+                name="Vishal Kumar"
+                pos="Webmaster"
                 pic={fa1}
+                github="https://github.com/vishalk3102"
+                instagram="https://www.instagram.com/vishal_k_31/"
+                linkedin="https://www.linkedin.com/in/vishalk3102/"
               />
             </div>
-            <div className="mx-auto p-2 col-span-4 sm:col-span-2 md:col-span-1 ">
+            <div className="p-2 lg:mt-4 col-span-4 sm:col-span-2 lg:col-span-1  flex justify-center md:justify-end lg:justify-center items-center">
               <Card
-                name="Piyush Aggarwal"
-                pos="assistant professor"
+                name="Shrey Choudhary"
+                pos="Management Head"
                 pic={fa1}
+                github="https://github.com/tanzeyl"
+                instagram="https://instagram.com/tanzzeyl?igshid=YmMyMTA2M2Y="
+                linkedin="https://www.linkedin.com/in/tanzeyl"
               />
             </div>
-            <div className="mx-auto p-2 col-span-4 sm:col-span-2 md:col-span-1 ">
+            <div className="p-2 lg:mt-4 col-span-4 sm:col-span-2 lg:col-span-1  flex justify-center md:justify-start lg:justify-start items-center">
               <Card
-                name="Piyush Aggarwal"
-                pos="assistant professor"
+                name="Nikhil Soni"
+                pos="Treasurer"
                 pic={fa1}
+                github="https://github.com/salvador001"
+                instagram="https://instagram.com/tanzzeyl?igshid=YmMyMTA2M2Y="
+                linkedin="https://www.linkedin.com/in/nikhil-soni-435b13217"
               />
             </div>
           </div>

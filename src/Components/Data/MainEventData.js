@@ -1,4 +1,4 @@
-import event1 from "../../Assets/event1.png";
+import event1 from "../../Assets/event1.jpeg";
 const MainEventData = [
   {
     id: 1,
@@ -6,6 +6,7 @@ const MainEventData = [
     category: "past",
     title: " Days of DevOps",
     desc: "A month long event where students learn about Github, Docker, Kubernetes, Jenkins, Ansible and more.",
+    link: "www.google.com",
   },
   {
     id: 2,
@@ -13,6 +14,7 @@ const MainEventData = [
     category: "upcomming",
     title: " DevOps",
     desc: "A month long event where students learn about Github, Docker, Kubernetes, Jenkins, Ansible and more.",
+    link: "www.google.com",
   },
   {
     id: 3,
@@ -20,6 +22,7 @@ const MainEventData = [
     category: "past",
     title: " Days of DevOps",
     desc: "A month long event where students learn about Github, Docker, Kubernetes, Jenkins, Ansible and more.",
+    link: "www.google.com",
   },
   {
     id: 4,
@@ -27,6 +30,7 @@ const MainEventData = [
     category: "past",
     title: " Days of DevOps",
     desc: "A month long event where students learn about Github, Docker, Kubernetes, Jenkins, Ansible and more.",
+    link: "www.google.com",
   },
   {
     id: 5,
@@ -34,6 +38,7 @@ const MainEventData = [
     category: "upcomming",
     title: "DevOps",
     desc: "A month long event where students learn about Github, Docker, Kubernetes, Jenkins, Ansible and more.",
+    link: "www.google.com",
   },
   {
     id: 6,
@@ -41,6 +46,7 @@ const MainEventData = [
     category: "upcomming",
     title: "DevOps",
     desc: "A month long event where students learn about Github, Docker, Kubernetes, Jenkins, Ansible and more.",
+    link: "www.google.com",
   },
   {
     id: 7,
@@ -48,6 +54,7 @@ const MainEventData = [
     category: "upcomming",
     title: "DevOps",
     desc: "A month long event where students learn about Github, Docker, Kubernetes, Jenkins, Ansible and more.",
+    link: "www.google.com",
   },
   {
     id: 8,
@@ -55,6 +62,7 @@ const MainEventData = [
     category: "upcomming",
     title: "DevOps",
     desc: "A month long event where students learn about Github, Docker, Kubernetes, Jenkins, Ansible and more.",
+    link: "www.google.com",
   },
 ];
 

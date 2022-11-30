@@ -26,32 +26,32 @@ const Contact = () => {
           ></iframe>
         </div>
         <div className="col-span-2 sm:col-span-1 md:col-span-1 m-5 p-5 flex flex-col justify-center items-start">
-          <div className="flex justify-start items-center  p-4 m-2">
+          <div className="flex justify-start items-center  p-4 m-2 hover:cursor-pointer hover:scale-105">
             <span>
-              <IoLocation size={24} />
+              <IoLocation size={24} color="#D44638" />
             </span>
             <p className=" font-medium pl-2 ml-3">
               566/6, Bell Road, Society Area, Clement Town,Dehradun, Uttarakhand
               248002
             </p>
           </div>
-          <div className="flex justify-start items-center  p-4 m-2">
+          <div className="flex justify-start items-center  p-4 m-2 hover:cursor-pointer hover:scale-105">
             <span>
-              <IoCall size={24} />
+              <IoCall size={24} color="#28D146" />
             </span>
             <p className=" font-medium pl-2 ml-3">+91 8459126643</p>
           </div>
-          <div className="flex justify-start items-center  p-4 m-2">
+          <div className="flex justify-start items-center  p-4 m-2 hover:cursor-pointer hover:scale-105">
             <span>
               <a
                 href="mailto:ieeegeu.studentbranch@gmail.com"
                 target="_blank"
                 rel="noreferrer"
               >
-                <SiGmail size={24} />
+                <SiGmail size={24} color="#D44638" />
               </a>
             </span>
-            <p className=" font-medium pl-2 ml-3">
+            <p className=" font-medium pl-2 ml-3 hover:cursor-pointer hover:scale-105">
               <a
                 href="mailto:ieeegeu.studentbranch@gmail.com"
                 target="_blank"
@@ -62,31 +62,31 @@ const Contact = () => {
             </p>
           </div>
           <div className="flex justify-start items-center m-2">
-            <div className="p-4 m-2">
+            <div className="p-4 m-2 hover:cursor-pointer hover:scale-105">
               <a
                 href="https://www.instagram.com/ieee.geu/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <BsInstagram size={24} />
+                <BsInstagram size={24} color="#C13584" />
               </a>
             </div>
-            <div className="p-4 m-2">
+            <div className="p-4 m-2 hover:cursor-pointer hover:scale-105">
               <a
                 href="https://www.linkedin.com/in/ieee-geu/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <FaLinkedinIn size={24} />
+                <FaLinkedinIn size={24} color="#0A66C2" />
               </a>
             </div>
-            <div className="p-4 m-2">
+            <div className="p-4 m-2 hover:cursor-pointer hover:scale-105">
               <a
                 href="https://github.com/ieeegeu"
                 target="_blank"
                 rel="noreferrer"
               >
-                <BsGithub size={24} />
+                <BsGithub size={24} color="#000" />
               </a>
             </div>
           </div>

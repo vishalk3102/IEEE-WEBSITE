@@ -20,7 +20,7 @@ const Membership = () => {
         {MembershipData.map((val, ind) => {
           return (
             <>
-              <div className="col-span-2 md:col-span-1 p-5">
+              <div key={val.id} className="col-span-2 md:col-span-1 p-5">
                 <div className="w-[100%] md:w-[90%] h-[100%]  mx-auto border-solid border-[1px] border-black rounded-[12px]">
                   <h3 className="text-[1.4rem] font-medium text-center p-4 uppercase mt-5">
                     {val.title}

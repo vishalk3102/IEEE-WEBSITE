@@ -34,7 +34,7 @@ const Hero = () => {
                       alt=""
                       className="w-[100%] h-[90%] md:h-[100%]"
                     />
-                    <div className="w-[100%] h-[60%] md:h-[80%]  bg-gray-900 opacity-20 text-[#fff] text-7xl absolute top-0">
+                    <div className="w-[100%] h-[60%] md:h-[100%]  bg-gray-900 opacity-20 text-[#fff] text-7xl absolute top-0">
                       {" "}
                     </div>
                   </div>

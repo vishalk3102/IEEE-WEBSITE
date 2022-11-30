@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="w-[100%] h-full max-w-[1200px] mx-auto my-20"
+      className="w-[100%] h-full max-w-[1200px]  mt-20 md:mt-32   mx-auto mb-20"
     >
       <div className="grid grid-cols-2 text-left sm:text-center md:text-left">
         <div className="col-span-2 md:col-span-1">
